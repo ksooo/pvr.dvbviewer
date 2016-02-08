@@ -1,3 +1,6 @@
+2.1.0
+[updated] to PVR addon API v5.0.0
+
 2.0.1
 
 [updated] Language files from Transifex
