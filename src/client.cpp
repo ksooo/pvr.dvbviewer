@@ -405,14 +405,6 @@ int GetChannelsAmount(void)
   return DvbData->GetChannelsAmount();
 }
 
-int GetCurrentClientChannel(void)
-{
-  if (!DvbData || !DvbData->IsConnected())
-    return PVR_ERROR_SERVER_ERROR;
-
-  return DvbData->GetCurrentClientChannel();
-}
-
 bool SwitchChannel(const PVR_CHANNEL &channel)
 {
   if (!DvbData || !DvbData->IsConnected())
